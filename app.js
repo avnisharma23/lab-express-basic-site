@@ -21,7 +21,7 @@ app.get('/work', (req,res) => {
 })
 
 
-app.get('/photogallery', (req,res) => {
+app.get('/gallery', (req,res) => {
     res.sendFile(__dirname + '/views/gallery.html')
   })
 
