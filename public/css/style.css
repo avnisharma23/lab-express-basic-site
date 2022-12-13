@@ -1,0 +1,80 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    
+  }
+  
+ 
+  
+  nav {
+    background-color:rgba(0, 0, 255, 0.535);
+    padding: 20px;
+    display: flex;
+    justify-content:center;
+
+  }
+  nav a {
+    padding-right: 80px;
+    color: white;
+  }
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  /* Style the header */
+.header {
+
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 500px;
+    text-align: center;
+    background: rgb(55, 182, 232);
+    color: white;
+   
+
+  }
+  
+  /* Increase the font size of the h1 element */
+  .header h1 {
+    font-size: 40px;
+  }
+.header p{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Style the navigation bar links */
+  .navbar a {
+    
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  .about-section {
+    padding: 20px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+    font-size: medium;
+    
+  }
+  .aboutparadiv{
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    color:black;
+  }
+
